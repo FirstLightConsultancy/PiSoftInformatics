@@ -1,0 +1,44 @@
+.video-wrapper {
+    width: 100%;
+    max-width: full; /* Adjust size as needed */
+    height: "screen";
+    position: relative;
+    padding-bottom: 100%; /* Enforces 1:1 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%); /* Center the video */
+    z-index: 1;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Text color */
+    z-index: 2;   /* Places text over the video */
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
