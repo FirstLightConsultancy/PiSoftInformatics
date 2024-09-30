@@ -7,7 +7,7 @@ export default function SocialLinks() {
       <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2 lg:pl-28 pt-4" >
           <a href="#" className="inline-flex items-center">
-            <Image
+            <img
               src="https://cdn-icons-png.flaticon.com/128/2891/2891134.png"
               alt="logo"
               className="h-14 w-14"
@@ -25,7 +25,7 @@ export default function SocialLinks() {
           </p>
           <div className="flex items-center gap-1 px-3">
             <a href="#" className="w-full min-w-xl">
-              <Image
+              <img
                 src="https://mcqmate.com/public/images/icons/playstore.svg"
                 alt="Playstore Button"
                 className="h-9"
@@ -35,7 +35,7 @@ export default function SocialLinks() {
               className="w-full min-w-xl"
               href="https://www.youtube.com/channel/UCo8tEi6SrGFP8XG9O0ljFgA"
             >
-              <Image
+              <img
                 src="https://mcqmate.com/public/images/icons/youtube.svg"
                 alt="Youtube Button"
                 className="h-28"

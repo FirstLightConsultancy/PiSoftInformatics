@@ -7,7 +7,7 @@ export default function HeroSection() {
   const words =  useMemo( ()=> [
     "Empowering Digital Transformation",
     "Building Future-Ready Solutions",
-    "Innovating Tomorrow, Today",
+    "Give New Direction to Your IT CAREER....",
   ],[]);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");

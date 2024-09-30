@@ -64,7 +64,7 @@ export default function SplineComp() {
           <Card>
             <div className="text-black pt-5">
               {/* Render the image */}
-              <Image src={item.image} alt={item.title} className="mx-auto mb-2 w-20 h-20 object-contain" />
+              <img src={item.image} alt={item.title} className="mx-auto mb-2 w-20 h-20 object-contain" />
               
               {/* Render the title and description */}
               <h3 className="text-sm text-center font-semibold mb-2">{item.title}</h3>

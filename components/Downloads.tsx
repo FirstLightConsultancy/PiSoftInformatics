@@ -32,7 +32,7 @@ export function Downloads() {
             <Card>
               {/* <CardContent className="flex items-center justify-center"> */}
               {/* <span className="text-3xl font-semibold">{index + 1}</span> */}
-              <Image
+              <img
                 src="https://media.istockphoto.com/id/155145019/photo/senior-exectutive.jpg?s=612x612&w=0&k=20&c=wm3L3cDLjMLEETNrFF_zNM03w0OYJHCUBZ6TFLVT184="
                 className="lg:w-[800px] w-[200px]"
                 alt="Downloads"

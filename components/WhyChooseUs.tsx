@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
                 <div className="p-4  hover:bg-[#ffff] rounded-2xl">
                   <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                     <div className="flex justify-center">
-                      <Image
+                      <img
                       alt=""
                         src="/assets/images/why-choose-us/innovation.gif"
                         className="w-24 mb-3"
@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
                 <div className="p-4  hover:bg-[#ffff] rounded-2xl ">
                   <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                     <div className="flex justify-center">
-                      <Image
+                      <img
                         src="/assets/images/why-choose-us/customer.gif"
                         className="w-24 mb-3"
                         alt=""
@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
                 <div className="p-4  hover:bg-[#ffff] rounded-2xl">
                   <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                     <div className="flex justify-center">
-                      <Image
+                      <img
                         src="/assets/images/why-choose-us/time.gif"
                         className="w-24 mb-3"
                         alt=""
@@ -78,7 +78,7 @@ export default function WhyChooseUs() {
                 <div className="p-4   hover:bg-[#ffff] rounded-2xl">
                   <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                     <div className="flex justify-center">
-                      <Image
+                      <img
                         src="/assets/images/why-choose-us/globe.gif"
                         className="w-24 mb-3"
                         alt=""
@@ -94,7 +94,7 @@ export default function WhyChooseUs() {
                 <div className="p-4   hover:bg-[#ffff] rounded-2xl ">
                   <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                     <div className="flex justify-center">
-                      <Image
+                      <img
                         src="/assets/images/why-choose-us/expert.gif"
                         className="w-24 mb-3"
                         alt=""
@@ -110,7 +110,7 @@ export default function WhyChooseUs() {
                 <div className="p-4   hover:bg-[#ffff] rounded-2xl">
                   <div className="px-4 py-6 transform transition duration-500 hover:scale-110">
                     <div className="flex justify-center">
-                      <Image
+                      <img
                         src="/assets/images/why-choose-us/practice.gif"
                         className="w-24 mb-3"
                         alt=""

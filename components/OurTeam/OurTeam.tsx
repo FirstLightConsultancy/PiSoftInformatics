@@ -14,7 +14,7 @@ export function OurTeam() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 font-bold px-20">
           {/* <!-- Team Member 1 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
             src="/assets/images/our-team/member1.jpg"
               alt="Team Member 1"
               className="w-full rounded-full mb-1"
@@ -25,7 +25,7 @@ export function OurTeam() {
 
           {/* <!-- Team Member 2 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member2.jpg"              alt="Team Member 2"
               className="w-full rounded-full mb-1"
             />
@@ -35,7 +35,7 @@ src="/assets/images/our-team/member2.jpg"              alt="Team Member 2"
 
           {/* <!-- Team Member 3 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member3.jpg"              alt="Team Member 3"
               className="w-full rounded-full mb-1"
             />
@@ -45,7 +45,7 @@ src="/assets/images/our-team/member3.jpg"              alt="Team Member 3"
 
           {/* <!-- Team Member 4 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member4.jpg"              alt="Team Member 4"
               className="w-full rounded-full mb-1"
             />
@@ -55,7 +55,7 @@ src="/assets/images/our-team/member4.jpg"              alt="Team Member 4"
 
           {/* <!-- Team Member 5 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member5.jpg"              alt="Team Member 5"
               className="w-full rounded-full mb-1"
             />
@@ -65,7 +65,7 @@ src="/assets/images/our-team/member5.jpg"              alt="Team Member 5"
 
           {/* <!-- Team Member 6 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member6.jpg"              alt="Team Member 6"
               className="w-full rounded-full mb-1"
             />
@@ -75,7 +75,7 @@ src="/assets/images/our-team/member6.jpg"              alt="Team Member 6"
 
           {/* <!-- Team Member 7 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member7.png"              alt="Team Member 7"
               className="w-full rounded-full mb-1"
             />
@@ -85,7 +85,7 @@ src="/assets/images/our-team/member7.png"              alt="Team Member 7"
 
           {/* <!-- Team Member 8 --> */}
           <div className="bg-white rounded-lg shadow-md p-3 my-4 text-center  transition-all duration-300 hover:scale-110 inline-block">
-            <Image
+            <img
 src="/assets/images/our-team/member8.jpg"              alt="Team Member 8"
               className="w-full rounded-full mb-1"
             />

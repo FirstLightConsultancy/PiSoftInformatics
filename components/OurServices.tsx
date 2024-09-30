@@ -22,7 +22,7 @@ export default function OurServices() {
       <div className="grid md:grid-cols-3 md:gap-10 p-20">
         <div className="antialiased text-gray-900  transition-all duration-300 hover:scale-110 inline-block ">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg shadow-gray-300">
-            <Image
+            <img
               className="h-48 w-full object-cover object-end"
               src="/assets/images/our-services/web-development.jpg"
               alt="Home in Countryside"
@@ -47,7 +47,7 @@ export default function OurServices() {
         </div>
         <div className="antialiased text-gray-900  transition-all duration-300 hover:scale-110 inline-block">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg shadow-gray-300">
-            <Image
+            <img
               className="h-48 w-full object-cover object-end"
               src="/assets/images/our-services/erp.jpg"
               alt="Home in Countryside"
@@ -72,7 +72,7 @@ export default function OurServices() {
         </div>
         <div className="antialiased text-gray-900  transition-all duration-300 hover:scale-110 inline-block">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg shadow-gray-300">
-            <Image
+            <img
               className="h-48 w-full object-cover object-end"
               src="/assets/images/our-services/web-services.jpg"
               alt="Home in Countryside"
@@ -97,7 +97,7 @@ export default function OurServices() {
         </div>
         <div className="antialiased text-gray-900  transition-all duration-300 hover:scale-110 inline-block">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg shadow-gray-300">
-            <Image
+            <img
               className="h-48 w-full object-cover object-end"
               src="/assets/images/our-services/carrer.jpg"
               alt="Home in Countryside"
@@ -122,7 +122,7 @@ export default function OurServices() {
         </div>
         <div className="antialiased text-gray-900  transition-all duration-300 hover:scale-110 inline-block">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg shadow-gray-300">
-            <Image
+            <img
               className="h-48 w-full object-cover object-end"
               src="/assets/images/our-services/seo.jpg"
               alt="Home in Countryside"
@@ -147,7 +147,7 @@ export default function OurServices() {
         </div>
         <div className="antialiased text-gray-900  transition-all duration-300 hover:scale-110 inline-block">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg shadow-gray-300">
-            <Image
+            <img
               className="h-48 w-full object-cover object-end"
               src="/assets/images/our-services/marketing.jpg"
               alt="Home in Countryside"

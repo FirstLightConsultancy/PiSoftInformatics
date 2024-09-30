@@ -11,8 +11,8 @@ export default function OurModules() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           {/* <div className="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');"> */}
           <div>
-            <Image
-            alt=""
+            <img
+              alt=""
               className=" absolute inset-0 bg-cover bg-center"
               src="/assets/images/our-modules/our-modules-bg.jpg"
             />
@@ -53,7 +53,7 @@ export default function OurModules() {
               <div className="w-full md:w-1/2 md:pl-12">
                 <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-2xl">
                   <h2 className="text-2xl font-semibold mb-6">
-                    Why MyCompany?
+                    Why Pisoft Informatics ?
                   </h2>
                   <ul className="space-y-4">
                     <li className="flex items-center">
@@ -136,12 +136,12 @@ export default function OurModules() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center space-y-10">
             <h2 className="text-3xl  font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
-              Explore Our ERP Modules{" "}
+              Explore Our ERP Modules
             </h2>
             <p className=" text-xl  text-black sm:mt-2">
               With proficiency in Digital, Engineering, and Cloud, we provide
               solutions that meet the conventional, transformative, and
-              future-oriented needs of clients worldwide.{" "}
+              future-oriented needs of clients worldwide.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-2 sm:gap-x-12  md:grid-cols-3 md:gap-x-4">
@@ -152,19 +152,19 @@ export default function OurModules() {
                   <span className="grid h-20 w-20 place-items-center rounded-full bg-blue-500 transition-all duration-300 group-hover:bg-sky-400">
                     <div className="mx-auto flex h-20 w-20 transform items-center justify-center rounded-full bg-blue-100 shadow-lg shadow-teal-500/40">
                       <div className="w-20 h-20 rounded-full bg-green-200 flex justify-center items-center">
-                        <Image
+                        <img
                           src="/assets/images/our-modules/education.png"
                           alt="Team Member 8"
                           className="w-16 ml-2"
-                        />{" "}
+                        />
                       </div>
                     </div>
                   </span>
                   <div className="space-y-6 pt-5 leading-7 text-black transition-all duration-300 group-hover:text-white">
                     <h1 className="text-2xl">Education</h1>
                     <p>
-                      A platform where users can lodge complaints or raise
-                      concerns about services or experiences.{" "}
+                      An Education ERP is a platform that enable users to manage
+                      operations within the educational institution efficiently.
                     </p>
                   </div>
                   <div className="pt-5 text-base font-semibold leading-7">
@@ -187,19 +187,20 @@ export default function OurModules() {
                   <span className="grid h-20 w-20 place-items-center rounded-full bg-blue-500 transition-all duration-300 group-hover:bg-blue-800">
                     <div className="mx-auto flex h-20 w-20 transform items-center justify-center rounded-full bg-blue-100 shadow-lg shadow-teal-500/40">
                       <div className="w-20 h-20 rounded-full bg-green-200 flex justify-center items-center">
-                        <Image
-                        alt=""
+                        <img
+                          alt=""
                           src="/assets/images/our-modules/finance.png"
                           className="w-16"
-                        />{" "}
+                        />
                       </div>
                     </div>
                   </span>
                   <div className="space-y-6 pt-5 leading-7 text-black transition-all duration-300 group-hover:text-white">
                     <h1 className="text-2xl">Finance</h1>
                     <p>
-                      A service that ensures new businesses meet legal and
-                      regulatory requirements.{" "}
+                      A Finance ERP service that ensures new businesses to
+                      manage their financial processes, including budgeting,
+                      accounting, and reporting, all in one place.
                     </p>
                   </div>
                   <div className="pt-5 text-base font-semibold leading-7">
@@ -222,20 +223,20 @@ export default function OurModules() {
                   <span className="grid h-20 w-20 place-items-center rounded-full bg-blue-500 transition-all duration-300 group-hover:bg-blue-500">
                     <div className="mx-auto flex h-20 w-20 transform items-center justify-center rounded-full bg-blue-100 shadow-lg shadow-teal-500/40">
                       <div className="w-20 h-20 rounded-full bg-green-200 flex justify-center items-center">
-                        <Image
-                        alt=""
+                        <img
+                          alt=""
                           src="/assets/images/our-modules/medical.png"
                           className="w-16"
-                        />{" "}
+                        />
                       </div>
                     </div>
                   </span>
                   <div className="space-y-6 pt-5 leading-7 text-black transition-all duration-300 group-hover:text-white">
                     <h1 className="text-2xl">Medical</h1>
                     <p>
-                      Assistance in establishing an online presence for
-                      businesses, including website development and digital
-                      marketing.{" "}
+                      Medical ERP includes features for patient
+                      management, electronic health records, and 
+                      marketing solutions tailored for the medical industry.
                     </p>
                   </div>
                   <div className="pt-5 text-base font-semibold leading-7">
@@ -269,7 +270,7 @@ export default function OurModules() {
                     <p>
                       An initiative to support and promote entrepreneurship in
                       India, offering resources, mentoring, and funding
-                      opportunities.{" "}
+                      opportunities.
                     </p>
                   </div>
                   <div className="pt-5 text-base font-semibold leading-7">
@@ -299,7 +300,7 @@ export default function OurModules() {
                     <h1 className="text-2xl">Track Your Assignment</h1>
                     <p>
                       A tool for tracking the progress and status of assigned
-                      tasks or projects.{" "}
+                      tasks or projects.
                     </p>
                   </div>
                   <div className="pt-5 text-base font-semibold leading-7">
@@ -328,7 +329,7 @@ export default function OurModules() {
                     <h1 className="text-2xl">Submit Your Grievance</h1>
                     <p>
                       Reiterates the availability of a platform to submit and
-                      address grievances.{" "}
+                      address grievances.
                     </p>
                   </div>
                   <div className="pt-5 text-base font-semibold leading-7">

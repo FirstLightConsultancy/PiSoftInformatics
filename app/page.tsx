@@ -13,6 +13,7 @@ import OurModules from "@/components/OurModules";
 import OurServices from "@/components/OurServices";
 import Navbar from "@/components/Navbar/Navbar";
 
+
 export default function Home() {
   return (
     <main className="">
@@ -22,6 +23,8 @@ export default function Home() {
       {/* <Background/> */}
       <SplineComp />
       <OurPremiumSponsors />
+      {/* <CarrerWithUs/> */}
+      {/* <AboutUsPage/> */}
 
       <div className="w-full bg-gray-100">{/* <CarouselSize /> */}</div>
       <Statistics />

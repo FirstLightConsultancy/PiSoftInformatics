@@ -13,8 +13,7 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-   navigationMenuTriggerStyle,
-  
+  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 
@@ -30,29 +29,105 @@ const menuItems: MenuItem[] = [
     url: "/ourproducts",
     submenu: [
       {
-        title: "Web Development",
-        url: "/ourproducts/web-development",
-      },
-      {
-        title: "App Development",
-        url: "/ourproducts/app-development",
-      },
-      {
-        title: "SEO",
-        url: "/ourproducts/seo",
-        submenu: [
+        title: "ERP Solutions",
+        url: "#",
+        submenu:[
           {
-            title: "On-Page SEO",
-            url: "/ourproducts/seo/on-page",
+            title: "Education",
+            url: "/education",
           },
           {
-            title: "Off-Page SEO",
-            url: "/ourproducts/seo/off-page",
+            title: "Finance",
+            url: "/finance",
+          },
+          {
+            title: "Retails",
+            url: "/retails",
+          },
+          {
+            title: "Medical Store",
+            url: "/medical-store",
+          },
+        ]
+      },
+      {
+        title: "Our Portals",
+        url: "#",
+        submenu: [
+          {
+            title: "Elive Today",
+            url: "/elive-today",
+          },
+          {
+            title: "Chandigarh Web",
+            url: "/chandigarh-web",
           },
         ],
       },
     ],
   },
+  {
+    title: "Our Services",
+    url: "#",
+    submenu: [
+      {
+        title: "ERP",
+        url: "/erp",
+      },
+      {
+        title: "Software Development",
+        url: "/software-development",
+      },
+      {
+        title: "Web Development",
+        url: "/web-development",
+      },
+      {
+        title: "Web Designing",
+        url: "/web-designing",
+      },
+      {
+        title: "Mobile Applications",
+        url: "/mobile-applications",
+      },
+      {
+        title: "Digital Marketing",
+        url: "/digital-marketing",
+      },
+    ],
+  },
+  {
+    title: "Know Us",
+    url: "#",
+    submenu: [
+      {
+        title: "Contact Us",
+        url: "/contact-us",
+
+      },
+      {
+        title: "Company Profile",
+        url: "/about-us",
+
+      },
+      {
+        title: "Awards and Honours",
+        url: "/awards-honours",
+      },
+    ],
+  },
+  {
+    title: "Carrer With Us",
+    url: "/carrer-with-us",
+    submenu: [
+      {
+        title: "Apply For Job",
+        url: "/carrer-with-us/apply-for-job",
+
+      },
+    ],
+  },
+
 ];
 
 const Navbar = () => {
@@ -106,37 +181,32 @@ const Navbar = () => {
   );
 
   return (
-    <nav className=" p-4">
-      <div className="bg-gray-100 py-2">
+    <nav className="">
+      <div className="bg-blue-500 py-2">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Left side - Contact Number */}
-          <div className="flex items-center space-x-2">
-          <Image alt="" src="https://www.svgrepo.com/show/6064/phone-call.svg" className="h-6"/>
-            <span className="text-gray-600 font-medium">+91-8288029930</span>
+          <div className="flex">
+            <img src="/icons/call.svg" alt="" className="h-6 mt-1" />
+            <span className="text-white">+91-8288029930</span>
           </div>
 
           {/* Right side - Buttons */}
           <div className="flex space-x-4">
-            <button className="bg-blue-600 text-white px-4 py-2 rounded-3xl hover:bg-blue-600 transition">
-              Get a Quote
-            </button>
-            <button className="bg-green-600 text-white px-4 py-2 rounded-3xl hover:bg-green-600 transition">
-              Take a Test
-            </button>
-            <button className="bg-yellow-600 text-white px-4 py-2 rounded-3xl hover:bg-yellow-600 transition">
-              Register for Placement
-            </button>
-            <div className="inline-flex items-center ml-5 space-x-6 lg:justify-end">
-              {/* <a href="#" className="text-base font-medium leading-6 text-gray-600 whitespace-no-wrap transition duration-150 ease-in-out hover:text-gray-900">
-                Sign in
-            </a>
-            <a href="#" className="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
-                Sign up
-            </a> */}
-              <button className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold py-2 px-6 rounded-full hover:from-cyan-600 hover:to-blue-600 transition-all duration-200 hover:scale-110 inline-block">
+            <div className="inline-flex items-center space-x-3 lg:justify-end">
+              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+                Get a Quote
+              </button>
+              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+                Take a Test
+              </button>
+              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+                Register for Placement
+              </button>
+
+              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Sign in
               </button>
-              <button className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold py-2 px-6 rounded-full hover:from-cyan-600 hover:to-blue-600 transition-all duration-200 hover:scale-110 inline-block">
+              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Sign Up
               </button>
             </div>
@@ -145,11 +215,11 @@ const Navbar = () => {
       </div>{" "}
       <div className="container mx-auto flex justify-between items-center">
         <a
-          href="#_"
+          href="http://localhost:3000"
           className="flex items-center mb-5 font-medium text-black lg:w-auto lg:items-center lg:justify-center md:mb-0"
         >
           <span className="mx-auto text-xl font-black leading-none  select-none">
-            <Image
+            <img
               src="/assets/images/logo.png"
               alt="logo"
               className="h-24 -mb-5"
@@ -205,23 +275,23 @@ const Navbar = () => {
           <NavigationMenu className="pl-5 text-md">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <Link href="/docs" legacyBehavior passHref>
+                <Link href="/" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Home
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
-              <ul className="flex space-x-4">
+              <ul className="flex space-x-4 z-50">
                 {menuItems.map((item, index) => (
                   <li
                     key={index}
-                    className="relative group"
+                    className="relative group z-50"
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
                     <Link
                       href={item.url}
-                      className="px-4 py-2 hover:bg-gray-200 text-black font-semibold"
+                      className="px-4 py-2 z-50 hover:bg-blue-50 border-none rounded-sm text-black font-semibold"
                     >
                       {item.title}
                     </Link>
@@ -229,7 +299,7 @@ const Navbar = () => {
                     {/* Level 1 */}
                     {item.submenu && hoveredIndex === index && (
                       <ul
-                        className="absolute left-0 mt-2 w-48 bg-white shadow-lg z-50 text-black font-semibold"
+                        className="absolute left-0 mt-2 w-52 z-50 bg-white shadow-lg z-50 text-black font-semibold"
                         onMouseEnter={() => setHoveredIndex(index)} // Keeps it open when hovering over submenu
                         onMouseLeave={() => {
                           setHoveredIndex(null);
@@ -240,12 +310,12 @@ const Navbar = () => {
                         {item.submenu.map((subItem, subIndex) => (
                           <li
                             key={subIndex}
-                            className="relative group"
+                            className="relative group z-50"
                             onMouseEnter={() => setHoveredSubIndex(subIndex)}
                           >
                             <Link
                               href={subItem.url}
-                              className="block px-4 py-2 text-black font-semibold hover:bg-gray-200"
+                              className="block px-4 py-2 z-50 text-black font-semibold hover:bg-gray-200"
                             >
                               {subItem.title}
                             </Link>
@@ -254,7 +324,7 @@ const Navbar = () => {
                             {subItem.submenu &&
                               hoveredSubIndex === subIndex && (
                                 <ul
-                                  className="absolute left-full top-0 mt-0 w-48 bg-white shadow-lg"
+                                  className="absolute left-full z-50 top-0 mt-0 w-48 bg-white shadow-lg"
                                   onMouseEnter={() =>
                                     setHoveredSubIndex(subIndex)
                                   } // Keeps it open when hovering over submenu
@@ -267,14 +337,14 @@ const Navbar = () => {
                                     (subSubItem, subSubIndex) => (
                                       <li
                                         key={subSubIndex}
-                                        className="relative group"
+                                        className="relative group z-50"
                                         onMouseEnter={() =>
                                           setHoveredSubSubIndex(subSubIndex)
                                         }
                                       >
                                         <Link
                                           href={subSubItem.url}
-                                          className="block px-4 py-2 text-gray-700 hover:bg-gray-200"
+                                          className="block px-4 py-2 z-50 text-gray-700 hover:bg-gray-200"
                                         >
                                           {subSubItem.title}
                                         </Link>
@@ -294,7 +364,7 @@ const Navbar = () => {
               <NavigationMenuItem>
                 <Link href="/docs" legacyBehavior passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Carrer With Us
+                    Training With Us
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>

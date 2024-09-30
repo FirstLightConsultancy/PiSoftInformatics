@@ -149,7 +149,7 @@ export function Blogs() {
                   <a href="#"></a>
                   <div className="relative">
                     <a href="#">
-                      <Image
+                      <img
                         className="w-full"
                         src="/assets/images/blog.jpg"
                         alt="Sunset in the mountains"

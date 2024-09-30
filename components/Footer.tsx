@@ -46,7 +46,7 @@ export default function Footer() {
         {/* Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8 py-14 max-w-xs mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-full">
           <div className="col-span-full mb-10 lg:col-span-2 lg:mb-0">
-            <Image
+            <img
               src="/assets/images/logo.png"
               alt=""
               className="h-24 bg-white"
@@ -62,7 +62,7 @@ export default function Footer() {
                 {socialIcons.map((social, index) => (
                   // <a href={social.href} target="_blank">
                   <a key={social.href} target="_blank">
-                    <Image
+                    <img
                       key={index}
                       src={social.icon}
                       alt={social.name}
@@ -81,7 +81,7 @@ export default function Footer() {
               {/* Enlarged Icon */}
               <div className="h-[100px] ">{hoveredIcon && (
                 <div className=" -mb-10 pt-10">
-                  <Image
+                  <img
                     src={hoveredIcon}
                     alt="Enlarged Icon"
                     className="h-24 w-24 transition-transform transform hover:scale-110"
@@ -108,6 +108,11 @@ export default function Footer() {
               <li className="mb-3">
                 <a href="javascript:;" className=" ">
                   Finance
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="javascript:;" className=" ">
+                  Medical
                 </a>
               </li>
             </ul>
@@ -164,7 +169,11 @@ export default function Footer() {
           <div className="lg:mx-auto text-center sm:text-left">
             <h4 className="text-lg  font-medium mb-7">Office Address</h4>
             <p>Plot No. C - 86 (Second Floor), Phase 7, Industrial Area, Mohali, Punjab, India.
-            8288029930</p>
+            </p><br/>
+            <div className="flex">
+            <img src="/icons/call.svg" alt="" className="h-5 mt-1"/><h2>+91 8288029930</h2>
+
+            </div>
           </div>
         </div>
         {/* Grid */}

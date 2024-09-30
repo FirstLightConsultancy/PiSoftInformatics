@@ -26,7 +26,7 @@ export default function OurAppFeatures() {
         </p>
 
         <div className="flex flex-col items-start">
-          <Image src="./dist/static/playstore.svg" className="" alt="" />
+          <img src="./dist/static/playstore.svg" className="" alt="" />
 
           <a href="https://www.youtube.com/watch?v=SPAr1TaSW2o">
             <svg
@@ -323,7 +323,7 @@ export default function OurAppFeatures() {
                 className="rounded rounded-xl border border-4 border-black" type="text/html"
                 src="https://www.youtube.com/embed/SPAr1TaSW2o?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com">
             </iframe> */}
-        <Image
+        <img
               src="/assets/images/our-app-features/our-app-features.png"
               className="h-[600px]"
           alt=""

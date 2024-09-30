@@ -71,7 +71,7 @@ export default function AboutUs() {
           </h2>
           <div className="w-full max-w-[1550px] mx-auto">
             <blockquote className="relative grid items-center bg-white shadow-2xl md:grid-cols-3 rounded-xl">
-              <Image
+              <img
                 alt="About Us"
                 className="hidden object-cover w-full h-full rounded-l-xl md:block"
                 style={{
@@ -222,7 +222,7 @@ src="/assets/images/about-us.jpg"              />
             className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
             src="/assets/images/our-achievement.jpg"
             alt="Statistics"
-             layout="fill"
+            layout="fill"
 
           />
         </div>
