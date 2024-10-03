@@ -11,8 +11,21 @@ import {
 } from "@/components/ui/carousel";
 import Spline from "@splinetool/react-spline";
 import Image from "next/image";
+import ImageCarouselHome from "../ImageCarousalHome/ImageCarouselHome";
 
 export default function SplineComp() {
+  const images = [
+    "/assets/technologies/android.png",
+    "/assets/technologies/angular.png",
+    "/assets/technologies/aws.png",
+    "/assets/technologies/java.png",
+    "/assets/technologies/jquery.png",
+    "/assets/technologies/php.png",
+    "/assets/technologies/python.png",
+    "/assets/technologies/swift.png",
+    "/assets/technologies/wordpress.png",
+  ];
+
   const carouselData = [
     { id: 1, title: "Android", image: "/assets/technologies/android.png" },
     { id: 2, title: "Angular", image: "/assets/technologies/angular.png" },
@@ -71,12 +84,19 @@ export default function SplineComp() {
             </div>
           </Card>
         </CarouselItem>
+
       ))}
     </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
+    <div className="mt-10  flow-root sm:mt-20">
+            <div className=" rounded-xl bg-blue-300 ring-1 ring-inset ring-gray-900/10  lg:rounded-2xl pt-3">
+              <ImageCarouselHome images={images} />
+            </div>
+          </div>
         </div>
+        
         <section className="h-[600px] bg-black">
           <Spline scene="https://prod.spline.design/IXTSbGyJCKPpuQVy/scene.splinecode" />
         </section>

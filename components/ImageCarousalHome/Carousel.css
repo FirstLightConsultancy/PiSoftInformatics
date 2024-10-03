@@ -1,0 +1,60 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  /* Custom styles for slick slider arrows */
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+
+}
+.slick-prev {
+    left: -50px; /* Move the left arrow further to the left */
+  }
+  
+  .slick-next {
+    right: -50px; /* Move the right arrow further to the right */
+  }
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px; /* Adjust this value for icon size */
+  color: black; /* Change color as needed */
+}

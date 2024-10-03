@@ -94,6 +94,18 @@ const menuItems: MenuItem[] = [
         title: "Digital Marketing",
         url: "/digital-marketing",
       },
+      {
+        title: "Domain Registration",
+        url: "/domain-registration",
+      },
+      {
+        title: "Graphic Designing",
+        url: "/graphic-designing",
+      },
+      {
+        title: "Web Hosting",
+        url: "/web-hosting",
+      },
     ],
   },
   {
@@ -122,7 +134,7 @@ const menuItems: MenuItem[] = [
     submenu: [
       {
         title: "Apply For Job",
-        url: "/carrer-with-us/apply-for-job",
+        url: "/apply-for-job",
 
       },
     ],
@@ -193,22 +205,22 @@ const Navbar = () => {
           {/* Right side - Buttons */}
           <div className="flex space-x-4">
             <div className="inline-flex items-center space-x-3 lg:justify-end">
-              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+              <Link href="/get-quote" className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Get a Quote
-              </button>
-              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+              </Link >
+              <Link href="/take-test" className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Take a Test
-              </button>
-              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+              </Link>
+              <Link href="/register" className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Register for Placement
-              </button>
+              </Link>
 
-              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+              {/* <Link href="/sign-in" className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Sign in
-              </button>
-              <button className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
+              </Link>
+              <Link href="/sign-up" className="bg-gradient-to-r from-blue-500 to-blue-500 text-white font-bold py-1 px-3 rounded-full hover:from-blue-800 hover:to-black transition-all duration-200 hover:scale-110 inline-block">
                 Sign Up
-              </button>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -252,26 +264,6 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           } w-full lg:flex lg:items-center lg:w-auto`}
         >
-          {/* <div className="text-md font-semibold lg:flex-grow">
-            <Link
-              href="/"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-6"
-            >
-              Home
-            </Link>
-            <Link
-              href="/about"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400 mr-6"
-            >
-              About
-            </Link>
-            <Link
-              href="/contact"
-              className="block mt-4 lg:inline-block lg:mt-0 hover:text-gray-400"
-            >
-              Contact Us
-            </Link>
-          </div> */}
           <NavigationMenu className="pl-5 text-md">
             <NavigationMenuList>
               <NavigationMenuItem>

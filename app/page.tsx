@@ -12,9 +12,11 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import OurModules from "@/components/OurModules";
 import OurServices from "@/components/OurServices";
 import Navbar from "@/components/Navbar/Navbar";
+import ImageCarouselHome from "@/components/ImageCarousalHome/ImageCarouselHome";
 
 
 export default function Home() {
+  
   return (
     <main className="">
       <Navbar/>
@@ -33,7 +35,7 @@ export default function Home() {
       <OurModules />
       <WhyChooseUs />
       <OurPortfolio />
-
+      
       <OurServices />
       <OurAppFeatures />
       <Blogs />
