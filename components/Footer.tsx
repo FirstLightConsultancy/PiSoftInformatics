@@ -96,22 +96,22 @@ export default function Footer() {
             <h4 className="text-lg font-medium mb-7">PisoftERP</h4>
             <ul className="text-md  transition-all duration-500">
               <li className="mb-3">
-                <a href="javascript:;" className="">
+                <a href="http://localhost:3000/education" target="_blank" >
                   Education
                 </a>
               </li>
               <li className="mb-3">
-                <a href="javascript:;" className=" ">
-                  Retail
-                </a>
-              </li>
-              <li className="mb-3">
-                <a href="javascript:;" className=" ">
+                <a href="http://localhost:3000/finance" target="_blank" >
                   Finance
                 </a>
               </li>
               <li className="mb-3">
-                <a href="javascript:;" className=" ">
+                <a href="http://localhost:3000/retails"  target="_blank">
+                  Retail
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/medical-store" target="_blank">
                   Medical
                 </a>
               </li>
@@ -122,25 +122,15 @@ export default function Footer() {
             <h4 className="text-lg  font-medium mb-7">PORTALS</h4>
             <ul className="text-md  transition-all duration-500">
               <li className="mb-3">
-                <a href="javascript:;" className="">
+                <a href="http://localhost:3000/elive-today" target="_blank" >
                   Elive Today
                 </a>
               </li>
               <li className="mb-3">
-                <a href="javascript:;" className="mb-3">
-                  ClassiKart Portal
-                </a>
-              </li>
-              <li className="mb-3">
-                <a href="javascript:;" className="mb-3">
+                <a href="http://localhost:3000/chandigarh-web" target="_blank" className="mb-3">
                   Chandigarh Web
                 </a>
-              </li>
-              <li>
-                <a href="javascript:;" className="mb-3">
-                  Wonder Websites
-                </a>
-              </li>  
+              </li> 
             </ul>
           </div>
           {/* End Col */}
@@ -148,18 +138,48 @@ export default function Footer() {
             <h4 className="text-lg  font-medium mb-7">WEB SERVICES</h4>
             <ul className="text-md  transition-all duration-500">
               <li className="mb-3">
-                <a href="javascript:;" className="">
+                <a href="http://localhost:3000/erp" target="_blank" >
+                ERP
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/software-development" target="_blank" >
+                Software Development
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/web-development" target="_blank" >
+                Web Developement
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/web-designing" target="_blank" >
                 Web Designing
                 </a>
               </li>
               <li className="mb-3">
-                <a href="javascript:;" className=" ">
-                Software Developement
+                <a href="http://localhost:3000/mobile-applications" target="_blank" >
+                Mobile Applications
                 </a>
               </li>
               <li className="mb-3">
-                <a href="javascript:;" className=" ">
+                <a href="http://localhost:3000/digital-marketing" target="_blank" >
                 Digital Marketing
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/domain-registration" target="_blank" >
+                Domain Registration
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/graphic-designing" target="_blank" className=" ">
+                Graphic Designing
+                </a>
+              </li>
+              <li className="mb-3">
+                <a href="http://localhost:3000/web-hosting" target="_blank" className=" ">
+                Web Hosting
                 </a>
               </li>
               

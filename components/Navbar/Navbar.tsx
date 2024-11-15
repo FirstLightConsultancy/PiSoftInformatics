@@ -26,7 +26,7 @@ interface MenuItem {
 const menuItems: MenuItem[] = [
   {
     title: "Our Products",
-    url: "/ourproducts",
+    url: "#",
     submenu: [
       {
         title: "ERP Solutions",

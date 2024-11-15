@@ -1,0 +1,19 @@
+.carousel-slide {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .carousel-image-container {
+    margin-bottom: 15px;
+  }
+  
+  .carousel-content h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .carousel-content p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

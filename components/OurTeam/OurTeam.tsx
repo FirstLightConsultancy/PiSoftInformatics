@@ -96,7 +96,8 @@ src="/assets/images/our-team/member8.jpg"              alt="Team Member 8"
       </div>
       <div className="video-wrapper">
         <video
-          src="https://v.ftcdn.net/09/04/32/78/700_F_904327866_hNY5F4I7UbjmPtCZ1ZjW3s76ImNRbVYx_ST.mp4"
+          // src="https://v.ftcdn.net/09/04/32/78/700_F_904327866_hNY5F4I7UbjmPtCZ1ZjW3s76ImNRbVYx_ST.mp4"
+          src="/assets/video/our-team.mp4"
           autoPlay
           loop
           muted

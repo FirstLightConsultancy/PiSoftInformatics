@@ -53,52 +53,17 @@ export default function SplineComp() {
             
             We leverage the latest and most advanced technologies to deliver innovative, scalable solutions tailored to your business needs. Our diverse tech stack ensures high performance, security, and flexibility in every project.
           </h3>
-          <Carousel
-      // plugins={[
-      //   Autoplay({
-      //     delay: 2000,
           
-      //   }),
-      // ]}
-      opts={{
-        align: "start",
-        loop: true,
-        
-        
-      }}
-      plugins={[plugin.current]}
-      onMouseEnter={plugin.current.stop}
-      
-      className="w-full max-w-full pt-10 "
-    >
-      <CarouselContent>
-      {carouselData.map((item) => (
-        <CarouselItem key={item.id} className="basis-1/3 md:basis-1/3 lg:basis-1/4">
-          <Card>
-            <div className="text-black pt-5">
-              {/* Render the image */}
-              <img src={item.image} alt={item.title} className="mx-auto mb-2 w-20 h-20 object-contain" />
-              
-              {/* Render the title and description */}
-              <h3 className="text-sm text-center font-semibold mb-2">{item.title}</h3>
-            </div>
-          </Card>
-        </CarouselItem>
-
-      ))}
-    </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
-    <div className="mt-10  flow-root sm:mt-20">
-            <div className=" rounded-xl bg-blue-300 ring-1 ring-inset ring-gray-900/10  lg:rounded-2xl pt-3">
-              <ImageCarouselHome images={images} />
+    <div className="flow-root sm:mt-20">
+            <div className=" pt-3">
+              <ImageCarouselHome images={images}  />
             </div>
           </div>
         </div>
         
         <section className="h-[600px] bg-black">
           <Spline scene="https://prod.spline.design/IXTSbGyJCKPpuQVy/scene.splinecode" />
+
         </section>
       </div>
     </div>

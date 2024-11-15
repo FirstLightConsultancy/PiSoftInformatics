@@ -99,7 +99,7 @@ export default function DomainRegistration() {
               <div className="flex mt-6">
                 <a
                   href="/contact-us"
-                  title="Silver Surfer"
+                  title="Send Query" 
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >

@@ -3,7 +3,7 @@ import React from "react";
 export default function CarrerWithUs() {
   return (
     <div className="">
-      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-[400px] text-white overflow-hidden">
+      <div className="relative bg-gradient-to-r from-purple-600 to-blue-600 h-[300px] text-white overflow-hidden">
         <div className="absolute inset-0">
           <img
           src="/assets/images/breadcrumb.jpg"

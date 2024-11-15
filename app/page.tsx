@@ -13,6 +13,7 @@ import OurModules from "@/components/OurModules";
 import OurServices from "@/components/OurServices";
 import Navbar from "@/components/Navbar/Navbar";
 import ImageCarouselHome from "@/components/ImageCarousalHome/ImageCarouselHome";
+import BlogCarousel from "@/components/BlogCarousalHome/BlogCarousel";
 
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
       <OurServices />
       <OurAppFeatures />
       <Blogs />
+
 
       {/* <Downloads /> */}
       <OurTeam />

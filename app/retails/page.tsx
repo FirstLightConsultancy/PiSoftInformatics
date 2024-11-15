@@ -1,6 +1,8 @@
 "use client"
 import ImageCarousel from '@/components/ImageCarousal/ImageCarousel';
 import React from 'react'
+import "./style.css";
+
 
 export default function Retails() {
   const images = [

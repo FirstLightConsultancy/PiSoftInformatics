@@ -64,7 +64,9 @@ export default function WebDevelopement() {
           </div>
         </div>
         <img
-          src="https://img.freepik.com/free-photo/cyber-security-expert-working-with-technology-neon-lights_23-2151645693.jpg?t=st=1727339773~exp=1727343373~hmac=c671840000518600400f471d2ec9225055524426cdac8f6eebbdeb58e4fef4dd&w=740"
+          // src="https://img.freepik.com/free-photo/cyber-security-expert-working-with-technology-neon-lights_23-2151645693.jpg?t=st=1727339773~exp=1727343373~hmac=c671840000518600400f471d2ec9225055524426cdac8f6eebbdeb58e4fef4dd&w=740"
+          src="/assets/images/our-services-tab/web-development.jpg"
+
           alt="Background Image"
           className="w-full h-36 object-cover sm:h-screen sm:w-4/12"
         />
@@ -103,8 +105,8 @@ export default function WebDevelopement() {
               </div>
               <div className="flex mt-6">                
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -137,8 +139,8 @@ export default function WebDevelopement() {
               <div className="flex mt-6">
                 
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -170,8 +172,8 @@ export default function WebDevelopement() {
               <div className="flex mt-6">
                 
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -204,8 +206,8 @@ export default function WebDevelopement() {
               <div className="flex mt-6">
                 
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >

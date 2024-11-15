@@ -28,7 +28,7 @@ export default function SoftwareDevelopment() {
                 <h1 className="text-4xl lg:text-6xl font-bold">
                   Great software is built on a foundation of
                   <span className="text-green-300"> collaboration,</span>
-                  <span className="text-green-300"> creativity,</span>
+                  <span className="text-green-300"> creativity, </span>
                   and an unwavering commitment to
                   <span className="text-green-300"> quality.</span>
                 </h1>
@@ -57,7 +57,7 @@ export default function SoftwareDevelopment() {
           </div>
         </div>
         <img
-          src="https://img.freepik.com/free-photo/technology-hologram-indoors_23-2151833333.jpg?t=st=1727339596~exp=1727343196~hmac=c09316b73d3f15e2976af68a2712ffc2c227f7e6ad465295f524d217b374ccc5&w=360"
+          src="/assets/images/our-services-tab/software-development.jpg"
           alt="Background Image"
           className="w-full h-36 object-cover sm:h-screen sm:w-4/12"
         />

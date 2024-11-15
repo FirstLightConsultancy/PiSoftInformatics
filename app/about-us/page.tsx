@@ -24,7 +24,7 @@ export default function AboutUsPage() {
               <div className="relative h-screen w-1/2 text-white overflow-hidden">
                 <div className="absolute inset-0">
                   <img
-                    src="https://img.freepik.com/free-photo/business-people-shaking-hands-together_53876-20488.jpg?t=st=1727242854~exp=1727246454~hmac=87b1025247c64c083b146bf6ec81032ddabb170a3af7c3a1e816f589acf03094&w=996"
+                    src="/assets/images/about-us-page/company-profile.jpg"
                     alt="Background Image"
                     className="object-cover object-center h-full"
                   />
@@ -39,7 +39,7 @@ export default function AboutUsPage() {
                     Discover amazing features and services that await you.
                   </p>
                   <a
-                    href="#"
+                    href="http://localhost:3000/contact-us"
                     className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                   >
                     Get Started
@@ -142,7 +142,7 @@ export default function AboutUsPage() {
                     you.{" "}
                   </p>
                   <a
-                    href="#"
+                    href="http://localhost:3000/contact-us"
                     className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                   >
                     Get Started
@@ -176,7 +176,7 @@ export default function AboutUsPage() {
                     ready for you.{" "}
                   </p>
                   <a
-                    href="#"
+                    href="http://localhost:3000/training-with-us"
                     className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                   >
                     Explore Internship Opportunities
@@ -272,7 +272,7 @@ export default function AboutUsPage() {
                     for you.{" "}
                   </p>
                   <a
-                    href="#"
+                    href="http://localhost:3000/contact-us"
                     className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
                   >
                     Get Started

@@ -197,12 +197,14 @@ transition-all duration-200 hover:scale-110"
                   <div className="w-[750px] h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                     {/* <img src="https://cdn.dribbble.com/users/904433/screenshots/3884784/progression_dribbble.gif" /> */}
                     <video
-                      src="https://v.ftcdn.net/02/59/52/28/700_F_259522827_Gv2kjAKQpKaI7MvyqLPlc4r6mABAzzP5_ST.mp4"
+                      // src="https://v.ftcdn.net/02/59/52/28/700_F_259522827_Gv2kjAKQpKaI7MvyqLPlc4r6mABAzzP5_ST.mp4"
+                      src="/assets/video/hero-section.mp4"
                       autoPlay
                       loop
                       muted
                       playsInline
                       className=""
+
                     ></video>
                   </div>
                 </div>

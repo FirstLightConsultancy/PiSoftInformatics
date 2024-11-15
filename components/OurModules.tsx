@@ -35,13 +35,15 @@ export default function OurModules() {
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                   <a
-                    href="#"
+                    href="http://localhost:3000/contact-us"
+                    target="_blank"
                     className="border-2 border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-blue-900 transition duration-300 text-center"
                   >
                     Get Started
                   </a>
                   <a
-                    href="#"
+                    href="http://localhost:3000/about-us"
+                    target="_blank"
                     className="border-2 border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-blue-900 transition duration-300 text-center"
                   >
                     Learn More

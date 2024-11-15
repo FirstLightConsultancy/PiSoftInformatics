@@ -65,8 +65,8 @@ export default function MobileApplications() {
           </div>
         </div>
         <img
-          // src="/assets/images/erp/erp.jpg"
-          src="https://img.freepik.com/free-psd/phone-x-hand-phone-x-was-created-developed-by-apple-inc_1142-53211.jpg?t=st=1727342113~exp=1727345713~hmac=33aaa3d267ee05d11d1a9b4818e1af5035006a9be8b70e02191c2aac54ec7f29&w=360"
+          src="/assets/images/our-services-tab/mobile-applications.jpg"
+
           alt="Background Image"
           className="w-full h-36 object-cover sm:h-screen sm:w-4/12"
         />

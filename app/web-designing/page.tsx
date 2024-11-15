@@ -100,7 +100,7 @@ export default function WebDesigning() {
           </div>
         </div>
         <img
-          src="https://img.freepik.com/free-photo/high-angle-hand-drawing-ipad_23-2150040081.jpg?t=st=1727340050~exp=1727343650~hmac=353954d91df04bdf0871fb6b1993852fb2325227af5cde3edc35cc4257b4c66f&w=360"
+          src="/assets/images/our-services-tab/web-designing.jpg"
           alt="Background Image"
           className="w-full h-36 object-cover sm:h-screen sm:w-4/12"
         />
@@ -131,8 +131,8 @@ export default function WebDesigning() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -158,8 +158,8 @@ export default function WebDesigning() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -185,8 +185,8 @@ export default function WebDesigning() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -212,8 +212,8 @@ export default function WebDesigning() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >

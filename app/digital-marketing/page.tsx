@@ -71,9 +71,9 @@ export default function DigitalMarketing() {
           </div>
         </div>
         <img
-          src="https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063146.jpg?t=st=1727342383~exp=1727345983~hmac=46f9328e69543e5d969c04c514cdf686abc83166cae848f11ae59a553a22efa5&w=740"
+          src="/assets/images/our-services-tab/digital-marketing.jpg"
           alt="Background Image"
-          className="w-full h-36 object-cover sm:h-screen sm:w-4/12"
+          className="w-full h-44 object-cover sm:h-screen sm:w-4/12"
         />
       </div>
       <section className="relative flex flex-col overflow-hidden h-svh items-center justify-center bg-zinc-950">
@@ -102,8 +102,8 @@ export default function DigitalMarketing() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -128,8 +128,8 @@ export default function DigitalMarketing() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -155,8 +155,8 @@ export default function DigitalMarketing() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -182,8 +182,8 @@ export default function DigitalMarketing() {
               </div>
               <div className="flex mt-6">
                 <a
-                  href="#_"
-                  title="Silver Surfer"
+                  href="http://localhost:3000/contact-us"
+                  title="Get Price"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >

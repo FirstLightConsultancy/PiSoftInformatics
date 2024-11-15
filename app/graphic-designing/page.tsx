@@ -52,7 +52,7 @@ export default function GraphicDesigning() {
                 </h1>
                 <div className="w-20 h-2 bg-green-300 my-4"></div>
                 <p className="text-xl mb-10">
-                The web is n&apos;t just for static content anymore. Increasingly, the web is being used as an enterprise-level environment for application development and deployment. Platform-independence make the web an ideal foundation for such applications. We&apos;ve designed, developed, deployed and maintained enterprise-level web applications from the ground up that have enhanced the bottom line for our clients. </p>
+                The web isn&apos;t just for static content anymore. Increasingly, the web is being used as an enterprise-level environment for application development and deployment. Platform-independence make the web an ideal foundation for such applications. We&apos;ve designed, developed, deployed and maintained enterprise-level web applications from the ground up that have enhanced the bottom line for our clients. </p>
                 <p className="text-xl mb-10">
                 That kind of experience has put us in the forefront of where the web is today and where it will be going tomorrow. As last century&apos;s content-driven web gives way to this century&apos;s social web, semantic web, and UI enhancements like AJAX that modern applications demand, we&apos;ve been tackling the technical challenges that face application developers and web engineers in this new era.
                 </p>
@@ -92,7 +92,7 @@ export default function GraphicDesigning() {
               <div className="flex mt-6">
                 <a
                   href="/contact-us"
-                  title="Silver Surfer"
+                  title="Send Query"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -119,7 +119,7 @@ export default function GraphicDesigning() {
               <div className="flex mt-6">
                 <a
                   href="/contact-us"
-                  title="Silver Surfer"
+                  title="Send Query"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -146,7 +146,7 @@ export default function GraphicDesigning() {
               <div className="flex mt-6">
                 <a
                   href="/contact-us"
-                  title="Silver Surfer"
+                  title="Send Query"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
@@ -173,7 +173,7 @@ export default function GraphicDesigning() {
               <div className="flex mt-6">
                 <a
                   href="/contact-us"
-                  title="Silver Surfer"
+                  title="Send Query"
                   aria-label="get started"
                   className="flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl text-black bg-white hover:bg-white/5 hover:text-white "
                 >
